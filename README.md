@@ -1,34 +1,43 @@
 # Project Title
-
+DealsDray MERN test
 ## Description
 Briefly describe the purpose of the project.
 
 ## Installation
-Step-by-step instructions to install the project locally.
-
 ```bash
-# Clone the repository
-git clone https://github.com/your-username/repository-name.git
 
-# Navigate to the project directory
-cd repository-name
+In terminal 1
+1-navigate to  frontend directory
+2-npm i all
+3-npm start
 
-# Install dependencies
+In terminal 2 
+1-navigate to  backend directory
+2-npm i all
+3-npm start
+
+## Clone the repository
+git clone https://github.com/swarajps/DealDray1.git
+
+
+## Install dependencies
 npm install
 
 
-#preview
-#login
+## preview
+## login
 ![Local Image](./screenshot/login.jpg)
+![Local Image](git clone https://github.com/swarajps/DealDray1.git
+)
 
-#Dashboard
+##Dashboard
 ![Local Image](./screenshot/Dashboardjpg.jpg)
 
-#employee list
+##employee list
 ![Local Image](./screenshot/employee list.jpg)
 
-#Add employee
+##Add employee
 ![Local Image](./screenshot/Addemp.jpg)
 
-#Edit employee details
+##Edit employee details
 ![Local Image](./screenshot/Editemp.jpg)
