@@ -1,56 +1,3 @@
-// import React, { useState } from "react";
-// import Styles from "./style.css";
-
-// const Login = () => {
-//   const [username, setUsername] = useState("");
-//   const [password, setPassword] = useState("");
-
-//   const submitHandler = (e) => {
-//     e.preventDefault();
-//     if (!username || !password) {
-//       alert("Please enter both username and password.");
-//       return;
-//     } else {
-//       //     handleLogin(username, password);
-//     }
-//   };
-
-//   return (
-//     <form onSubmit={submitHandler}>
-//       <div className="hone" style={Styles}>
-//         Login
-//       </div>
-//       <div className="flex" style={{ Styles }}>
-//         <div>
-//           Username 
-//           <input
-//             type="text"
-//             onChange={(e) => setUsername(e.target.value)}
-//             required
-//             //   style={}
-//           />
-//         </div>
-//         <div>
-//           Password 
-//           <input
-//             type="password"
-//             onChange={(e) => setPassword(e.target.value)}
-//             required
-//             //   style={inputStyle}
-//           />
-//         </div>
-//         <div>
-//           <button className="btn" type="submit">Login</button>
-//         </div>
-//       </div>
-//     </form>
-//   );
-// };
-
-// export default Login;
-
-
-
 import React, { useState } from 'react';
 import axios from 'axios';
 import Styles from "./style.css";
@@ -81,6 +28,7 @@ const LoginForm = () => {
         navigate("/dashboard")
     } else {
         setMessage('Login failed! Please check your credentials.');
+        alert("Incorrect credentials")
       }
     } catch (error) {
       console.error('Error during login:', error);
