@@ -1,0 +1,74 @@
+.hone{
+background-color: yellow;
+padding-top: 3px;
+padding-bottom: 3px;
+font-size: large;
+}
+
+.addempflex {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Align items to the start (left) */
+    justify-content: space-around;
+    height: 500px;
+    padding: 20px;
+    font-size: medium;
+    box-sizing: border-box;
+}
+
+.addempflex div {
+    display: flex;
+    margin-right: 100px;
+    align-items: center; /* Align label and input in a row */
+    margin-bottom: 10px; /* Space between fields */
+}
+
+.addempflex div label {
+    margin-right: 10px; /* Space between label and input */
+    width: 120px; /* Fixed width for labels */
+    text-align: right; /* Align label text to the right */
+}
+
+.addempflex div input {
+    width: 200px; /* Make sure inputs have a consistent width */
+}
+
+
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    height: 100vh; /* Full viewport height */
+    font-size: medium;
+}
+.flex div {
+    margin-bottom: 20px;
+}
+
+.btn{
+    background-color: greenyellow;
+    color: aliceblue;
+    height:20px;
+    width: 150px;
+    border: 0px;
+}
+.btn:hover{
+    border: 1px solid black;
+}
+
+.htwo{
+display:flex;
+background-color:aliceblue;
+padding-top: 3px;
+padding-bottom: 3px;
+justify-content:space-between;
+font-size: large;
+}
+.hthree{
+    display: flex;
+    padding-right: 30px;
+    background-color:gainsboro;
+    justify-content: right;
+}
